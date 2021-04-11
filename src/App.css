@@ -7,4 +7,5 @@ body{
     background-repeat: repeat;
     background-size: cover;
     overflow-x: hidden;
+    color: #fff !important;
 }
