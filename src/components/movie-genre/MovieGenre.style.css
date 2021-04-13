@@ -1,0 +1,38 @@
+.movie-genre{
+    width: 100%;
+    font-size: 12px;
+    opacity: 0;
+    position: absolute;
+    left: 10px;
+    bottom: 25%;
+    transition: opacity 300ms,transform 300ms ease-in;
+}
+.movie-genre p{
+    font-size: 14px !important;
+    color: #fff !important;
+}
+.book{
+    display: flex;
+    justify-content: space-between;
+}
+.movie-genre img{
+    margin-right: 20px;
+}
+.movie-genre a{
+    text-decoration: none !important;
+    color: #000;
+    font-weight: 600;
+}
+.movie-genre img{
+    margin-top: 3px;
+}
+.book-now a{
+    transition: color 200ms ease-in;
+}
+.book-now:hover a{
+    color: #c5292a !important;
+}
+.movie-preview:hover .movie-genre{
+    opacity: 1;
+    transform: translate(0,-15px);
+}
