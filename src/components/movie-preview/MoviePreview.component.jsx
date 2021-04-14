@@ -4,12 +4,13 @@ import './MoviePreview.style.css';
 // import play from '../../assets/play.png';
 
 const MoviePreview = ({title, language, release, imageUrl, genre}) => (
-    <div className={`movie-preview`}>
+    
+    <div className={`${release ? 'release' : ''} movie-preview`}>
         <div className="img-showing">
             <img src={process.env.PUBLIC_URL + `/img/${imageUrl}`} />
             <MovieGenre genre={genre} />
         </div>
-        <h3>{title}</h3>
+        <h4>{title}</h4>
         {
             release 
             ? <p>{release}</p>

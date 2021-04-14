@@ -32,7 +32,7 @@ const UPCOMINGMOVIE_DATA = [
       title: 'Secret Life of Pets 2',
       release: 'English',
       genre: 'animation',
-      imageUrl: 'pets.jpg'
+      imageUrl: 'Pets.jpg'
     },
     {
       id: 6,

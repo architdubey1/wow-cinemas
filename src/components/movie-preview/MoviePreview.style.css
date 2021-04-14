@@ -4,7 +4,10 @@
     margin-right: 10px;
     position: relative;
 }
-.movie-preview h3{
+.release{
+    width: 95%;
+} 
+.movie-preview h4{
     font-size: 120%;
     padding-left: 8px;
     font-weight: 600;
